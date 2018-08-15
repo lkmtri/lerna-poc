@@ -1,9 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
+import Div from 'Div'
 
 const Button = styled.button`
-  height: 50px;
-  background-color: yellow;
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: yellow;
+  }
+  &:focus {
+    background-color: green;
+  }
 `
 
-export default Button
+export default (props) => (
+  <Div>
+    <Button {...props} />
+  </Div>
+)
