@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from 'core/Button'
+import Button from 'components/Component'
 
 class Index extends React.PureComponent {
   render () {

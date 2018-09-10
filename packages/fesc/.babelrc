@@ -3,6 +3,10 @@
     "next/babel"
   ],
   "plugins": [
+    ["module-resolver", {
+      "root": ["./"],
+      "cwd": "babelrc"
+    }],
     "@babel/plugin-proposal-export-default-from"
   ]
 }

@@ -11,7 +11,7 @@ const Button = styled.button`
   outline: none;
   cursor: pointer;
   &:hover {
-    background-color: yellow;
+    background-color: red;
   }
   &:focus {
     background-color: green;
